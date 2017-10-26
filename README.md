@@ -11,15 +11,15 @@ In the unlikely event that you have not Git installed, download Git from here an
 [Git - Downloads](https://git-scm.com/download)
 We assume that you will be working in a unix shell, on Windows you can use the Git Bash. 
 
-Install OC
-The oc command is the CLI to OpenShift, the PaaS technology behind Altemista Cloud. Just download the binary form the links below and put it in your path.
+### Install OpenShift CLI
+The `oc` command is the CLI to OpenShift, the PaaS technology behind Altemista Cloud. Just download the binary form the links below and put it in your path.
 https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-windows.zip
 https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-mac.zip
 https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-linux-64bit.tar.gz
 
 You can check the successful installation by running
 ```
-oc login 
+oc login https://training.altemista.cloud:8443
 ```
  
 ## Links to Starterkits
